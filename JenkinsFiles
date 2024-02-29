@@ -5,7 +5,8 @@ stages
 {
 stage('One')
 {
-steps{
+steps
+{
 echo'Hi,welcome to pipeline demo...'
 }
 }
@@ -16,11 +17,11 @@ steps
 echo('Sample testing of Stage 2')
 }
 }
-stage('Three)
+stage('Three')
 {
 steps
 {
-echo' Thannks for using Jetkins Pipeline'
+echo'Thannks for using Jetkins Pipeline'
 }
 }
 }
